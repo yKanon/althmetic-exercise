@@ -7,6 +7,11 @@
 
 // 你的任务是，已知所有N位同学的身高，计算最少需要几位同学出列，可以使得剩下的同学排成合唱队形。
 
+// 注意：不允许改变队列元素的先后顺序 且 不要求最高同学左右人数必须相等
+// 请注意处理多组输入输出！
+
+// 备注：
+// 1<=N<=3000
 const readline = require("readline");
 const rl = readline.createInterface({
   input: process.stdin,
