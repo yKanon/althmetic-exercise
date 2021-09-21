@@ -1,0 +1,1 @@
+function namespace(oNamespace, sPackage) {}
