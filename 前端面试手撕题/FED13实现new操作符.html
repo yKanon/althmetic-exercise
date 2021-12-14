@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8>
+</head>
+
+<body>
+
+  <script type="text/javascript">
+    const _new = function (fn, ...args) {
+      // 补全代码
+      let obj = Object.create(null)
+      Object.setPrototypeOf(obj, fn.prototype)
+      let res = fn.apply(obj, args)
+
+      if (typeof res === 'object') return res
+      else {
+        return obj
+      }
+    }
+  </script>
+</body>
+
+</html>
